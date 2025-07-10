@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habit Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header> 
+        <h1>Habit Tracker</h1>
+        <h3><pre>
+            Hello,Welcome to Habit Tracker!
+            Your daily habits shape your future — let’s build it one small win at a time. 
+        </pre></h3>
+    </header>
+    <main>
+        <form>
+            <label for="habitInput">Enter Habit:</label>
+            <input type="text" id="habitInput" placeholder="Drinking Water" required>
+        </form><br>
+        <h2>Why This Habit Matters</h2>
+        <pre>
+            Every habit you start is a promise to your future self.
+            It’s not about being perfect — it’s about showing up, even on low-energy days.
+            Whether it's drinking water, reading a page, or taking 5 deep breaths — it counts.
+            Progress isn’t loud. But trust me, it’s powerful.
+            So submit that habit and let’s stack some wins. Your glow-up starts here
+        </pre>
+         <h4 id="habitDisplay"></h4> 
+        <label id="countLabel">0</label>
+        <div id="btnContainer">
+        <button id="decreaseBtn">Decrease</button>
+        <button id="resetBtn">Reset</button>
+        <button id="increaseBtn">Increase</button>
+        <p id="habitMessage">You've done this habit 0 times today.</p>
+
+
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
